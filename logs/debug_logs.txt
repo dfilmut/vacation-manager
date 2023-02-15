@@ -1,0 +1,2 @@
+zmienna user_vacation_days_count = 5 | zmienna user_vacation_days_count = 95 | zmienna vacation_days_after_rejected = 100 
+zmienna user_vacation_days_count = 7 | zmienna user_vacation_days_count = 0 | zmienna vacation_days_after_rejected = 7 

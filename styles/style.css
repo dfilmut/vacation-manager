@@ -1,0 +1,259 @@
+body{
+  /* height: 100%; */
+  margin: 0px;
+  background-image: url("images/sunset-background-featuring-sky-clouds.jpg");
+  background-color: #ffffff;
+  background-position:center;
+  background-size: cover;
+  background-repeat: repeat;
+  
+}
+p{
+  margin: 0;
+}
+
+header{
+  width:100%;
+  top:0;
+  left:0;
+}
+
+.main-layout {
+  min-height: 100vh;
+  min-height: 100dvh;
+  display:grid;
+    grid-template-rows: 
+      auto
+      1fr
+      auto;
+}
+
+footer{
+  display:grid;
+  margin-top: 25px;
+  margin-bottom: 0px;
+  bottom:0;
+}
+
+#footer-ul{
+  margin-top: 25px;
+  margin-bottom: 0px;
+}
+ ul {
+    width: 100%;
+    list-style-type: none;
+    margin-top: 0px;
+    margin-bottom: 25px;
+    padding: 25px 0;
+    overflow: hidden;
+    background: linear-gradient(135deg, #ffffff 0%, #e4e5e7 100%);
+
+  }
+
+#first-li {
+    margin-left: 10%;
+}
+
+  li {
+    float: left;
+    margin-left: 5px;
+  }
+
+button {
+  font-size: 11px;
+  margin: 5px;
+  padding: 10px 20px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  display: block;
+  border: 0px;
+  font-weight: 700;
+  box-shadow: 0px 0px 14px -7px #f09819;
+  background-image: linear-gradient(45deg, #FF512F 0%, #F09819  51%, #FF512F  100%);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+button:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+#li-logout {
+  float: right;
+  margin: 0px 10% 0px 50px;
+}
+
+#button-logout {
+  box-shadow: 0px 0px 14px -7px #a16510;
+  background-image: linear-gradient(45deg, #ca371a 0%, #b47215  51%, #c03d22  100%);
+}
+
+
+
+.input-as-button {
+  font-size: 11px;
+  padding: 10px 20px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  display: block;
+  border: 0px;
+  font-weight: 700;
+  box-shadow: 0px 0px 14px -7px #f09819;
+  background-image: linear-gradient(45deg, #FF512F 0%, #F09819  51%, #FF512F  100%);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin: 5px auto;
+}
+
+.input-as-button:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.input-as-button:active {
+  transform: scale(0.95);
+}
+
+
+
+#wrapper {
+  width: 100%;
+  float: left;
+  display: flex;
+}
+#first {
+  width: 33%;
+  float: left;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  display: flex;
+}
+#second {
+  width: 33%;
+  float: left;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  align-content: center;
+}
+#third {
+  width: 33%;
+  float: left;
+  justify-content: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  align-content: center;
+}
+
+.div-for-form {
+  text-align: center;
+  align-content: center;
+  border: 1px solid black;
+  border-radius: 25px;
+  padding: 30px;
+  background-color: rgba(255,255,255,0.6);
+}
+
+.center-button-inside-div{
+  display:flex; 
+  justify-content: center;
+}
+
+table {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  border-collapse: separate; 
+  border-spacing: 0 20px;
+}
+td,th {
+  border-bottom: 2px solid black;
+  padding-bottom: 15px;
+}
+
+table.table-employee-data {
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+td.button-acc {
+  margin: auto;
+  text-align: center;
+}
+
+.login-form-container {
+  display: table;
+  height: 100%;
+  margin:auto;
+}
+
+.login-form-vertical-center {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+img {
+width: 100px;  
+height: 100px;  
+margin-bottom: 20px;
+}
+
+#first-kadry-cu-button {
+  width: 75%;
+  float: left;
+  justify-content: left;
+  align-items: left;
+  align-content: left;
+  display: flex;
+}
+#second-kadry-cu-button {
+  width: 25%;
+  float: left;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  align-content: center;
+}
+
+a {
+  color:black;
+}
+
+a:visited{
+  text-decoration-line:none;
+}
+
+a:hover {
+  text-decoration-line:underline;
+}
+.login-page-p {
+  margin-top: 10px; 
+  font-weight: bold; 
+  font-size: 20px;
+}
+
+.dashboard-windows {
+  margin-top: 10px; 
+}

@@ -1,0 +1,3 @@
+zmienna user_vacation_days_count = 4 | zmienna user_vacation_days_count = 21 
+zmienna user_vacation_days_count = 1 | zmienna user_vacation_days_count = 24 
+zmienna user_vacation_days_count = 7 | zmienna user_vacation_days_count = 0 
