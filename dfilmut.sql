@@ -53,8 +53,7 @@ INSERT INTO `php_users` (`user_id`, `login`, `password`, `email`, `name`, `surna
 (35, 'kierownik3', 'c6b8bbfb3f8a677c9b5239fdbcaaa4ab', 'kierownik3@dfilmut.com', 'Kierownik3', 'Kierownik3', 'Kierownik Kadry', 'Kadry', 'kadry', 3, 12),
 (32, 'pracownik1', 'a03d603193c93860b74fb3839bc62716', 'pracownik1@dfilmut.com', 'Pracownik1', 'Pracownik1', 'Programista PHP', 'IT', 'pracownik', 1, 10),
 (31, 'kadry', 'c92f83808f86e22b53d8858bc1563596', 'kadry@dfilmut.com', 'Kadry', 'Kadry', 'Kadry', 'Kadry', 'kadry', 3, 100),
-(36, 'pracownik2', 'b6d6eaef51cbe3abd95cdc336edd5086', 'pracownik2@dfilmut.com', 'Pracownik2', 'Pracownik2', 'Administrator Systemu', 'IT', 'pracownik', 2, 10),
-(37, 'administrator', 'administrator', 'admin@dfilmut.com', 'Administrator', 'Administrator', 'Administrator Oprogramowania HR', 'IT', 'administrator', 0, 404);
+(36, 'pracownik2', 'b6d6eaef51cbe3abd95cdc336edd5086', 'pracownik2@dfilmut.com', 'Pracownik2', 'Pracownik2', 'Administrator Systemu', 'IT', 'pracownik', 2, 10);
 
 -- --------------------------------------------------------
 
